@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<meta content="text/html;charset=UTF-8"/>
@@ -26,7 +27,10 @@
 						<li class="list-group-item" th:each="person:${people}">
 							<span th:text="${person.name}"></span>
 							<span th:text="${person.age}"></span>
-
+							<!-- thymeleaf怎么js传参 -->
+							<!-- 
+							<button class="btn" th:onclick="'javascript: getName('+${person.name}+')' ">获得名字</button>
+							 -->
 						</li>
 					</ul>
 				</div>

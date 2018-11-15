@@ -1,4 +1,4 @@
-package com.wisely;
+package com.wisely.ch7_2;
 
 public class Person {
 	private String name;

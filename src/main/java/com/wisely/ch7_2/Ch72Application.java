@@ -1,4 +1,4 @@
-package com.wisely;
+package com.wisely.ch7_2;
 
 import java.util.List;
 import java.util.ArrayList;
